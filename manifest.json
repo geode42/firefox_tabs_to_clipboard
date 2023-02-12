@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Tabs to Clipboard",
+	"version": "0.1.0",
+
+	"description": "Copies every tab in the currently active window to your clipboard",
+	"browser_action": {
+		"default_icon": {
+			"128": "icon.png"
+		}
+	},
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"tabs"
+	]
+}
